@@ -93,7 +93,7 @@ fi
 #
 # setting up default values
 custom_param_os="/mediabots/"$(ls /mediabots)
-custom_param_sw="/sw.iso"
+custom_param_sw="/virtio/sw.iso"
 custom_param_virtio="/virtio/"$(ls /virtio)
 #
 custom_param_ram="-m "$(expr $availableRAM - 200 )"M"
